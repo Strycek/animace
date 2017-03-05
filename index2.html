@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Animatic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+
+        <style>
+            @-ms-viewport {
+                width: device-width;
+            }
+
+            nav {
+                background-image: url("P1190556.jpg"); 
+                height: auto;
+                opacity: none;
+                min-height: auto;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            footer {
+                padding: 1em;
+                background-color: #ccccb3;
+                    
+            }
+            
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            th, td {
+                padding: 20px;
+                text-align: left;
+                border-bottom: 1px solid  #ddd;
+                color: black;
+            }
+            
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: left;
+                padding: 0px;
+                width: 200px;
+                background-color: #ccccb3;
+            }
+
+
+            li a, .dropbtn {
+                display: block;
+                color: #000000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #5996a6;
+                color: white;
+            }
+
+
+            .dropdown {
+                position: relative;
+                display: block;
+            }
+
+
+            li a.active {
+                background-color: #006666;
+                color: white;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #ccccb3;
+                min-width: 200px;              
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 8px 16px;
+                text-decoration: none;
+                display: block;
+
+            }
+
+            .dropdown-content a:hover {
+                background-color: #5996a6;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header>
+                <img src="liska.gif" alt="logo" style="width: 80px; height: 80px; border: 0; float:none">
+                <h1 title="obrazy o příběhu"> PŘÍBĚH ANIMACE </h1>
+                <p style="color: #5996a6; text-align: center;"> <em> Zde si můžete přečíst <strong>"příběh o příběhu"</strong> </em> </p>
+            </header>
+
+            <nav>
+                <div class="menu-box">
+                    <ul>
+                        <li><a class="active" href="index2.html">Příběh</a></li>
+                        <li><a href="index3.html">Postavy</a></li>
+                        <li><a href="index.html">Galerie</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">odkazy</a>
+                            <div class="dropdown-content">
+                                <a href="#">animace</a>
+                                <a href="#">fázování pohybu</a>
+                                <a href="#">literatůra</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <article>
+                <h2>Příběh a jeho části</h2>
+                <h3>Rozdělení <strong>příběhové linky:</strong></h3>
+                <p> Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit. Suspendisse nisl. Integer tempor. Nunc tincidunt ante vitae massa. Aenean fermentum risus id tortor. Vestibulum fermentum tortor id mi. Integer imperdiet lectus quis justo. Integer vulputate sem a nibh rutrum consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Pellentesque pretium lectus id turpis. Aliquam erat volutpat. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim.</p>
+                <p> Nullam faucibus mi quis velit. Curabitur sagittis hendrerit ante. <strong>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nulla non arcu lacinia neque faucibus fringilla.</strong> Etiam egestas wisi a erat. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Aliquam ante. Ut tempus purus at lorem. Nam quis nulla. In rutrum. Curabitur vitae diam non enim vestibulum interdum. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Duis condimentum augue id magna semper rutrum. Nunc tincidunt ante vitae massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Maecenas sollicitudin. Duis viverra diam non justo. Nulla non lectus sed nisl molestie malesuada. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>
+                <p> Nam libero tempore, cum soluta nobis est eligendi <strong>optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,</strong> omnis dolor repellendus. In rutrum. Fusce nibh. Nulla non lectus sed nisl molestie malesuada. Nullam faucibus mi quis velit. Aliquam erat volutpat. Nulla est. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Curabitur bibendum justo non orci. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Nullam rhoncus aliquam metus. Curabitur vitae diam non enim vestibulum interdum. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Sed convallis magna eu sem. </p>
+                <p> Vivamus ac leo pretium faucibus. Aliquam erat volutpat. Praesent in mauris eu tortor porttitor accumsan. Aenean fermentum risus id tortor. Etiam dictum tincidunt diam. <strong>Vivamus ac leo pretium faucibus. Nunc auctor.</strong> Nunc tincidunt ante vitae massa. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Duis pulvinar. Etiam dictum tincidunt diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nulla pulvinar eleifend sem. Et harum quidem rerum facilis est et expedita distinctio. Etiam posuere lacus quis dolor. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Et harum quidem rerum facilis est et expedita distinctio. </p>
+
+                <table>
+                    <tr>
+                        <th>postava</th>
+                        <th>jméno</th>
+                        <th>role postavy</th>
+                    </tr>
+                    <tr>
+                        <td>lovec-lesník</td>
+                        <td>Pan Josef Hiluda</td>
+                        <td>hlavní-oběť-teroru</td>
+                    </tr>
+                    <tr>
+                        <td>lesní-zvěřina-SOB</td>
+                        <td>sob Mirok</td>
+                        <td>vedlejší postava-zvěřina-moudrá sob</td>
+                    </tr>
+                    <tr>
+                        <td>lesní-zvěřina-medvěd gruzli</td>
+                        <td>Gulda (Guliver)</td>
+                        <td>hlavní-šikanovatel</td>
+                    </tr>
+                    <tr>
+                        <td>lesní-zvěřina-králík</td>
+                        <td>Mrkvoň</td>
+                        <td>hlavní-vrchní-šikanovatel</td>
+                    </tr>
+                </table>
+
+            </article>
+            
+            <footer>
+                
+            </footer>
+
+    </body>
+</html>

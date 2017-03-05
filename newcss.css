@@ -1,0 +1,104 @@
+            @-ms-viewport {
+                width: device-width;
+            }
+            
+            header {; color: white; background-color: white; clear: left; text-align: center; max-width: none;}
+
+            nav {
+                background-image: url("P1190514.jpg"); 
+                height: auto;
+                opacity: none;
+                min-height: auto;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            footer {
+                padding: 1em;
+                background-color: #ccccb3;       
+            }
+            
+            
+            
+            ul {
+                list-style-type: none;
+                margin: left;
+                padding: 0px;
+                width: 200px;
+                background-color: #ccccb3;
+            }
+
+
+            li a, .dropbtn {
+                display: block;
+                color: #000000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #5996a6;
+                color: white;
+            }
+
+
+            .dropdown {
+                position: relative;
+                display: block;
+            }
+
+
+            li a.active {
+                background-color: #006666;
+                color: white;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #ccccb3;
+                min-width: 200px;              
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 8px 16px;
+                text-decoration: none;
+                display: block;
+
+            }
+
+            .dropdown-content a:hover {
+                background-color: #5996a6;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            body{background-color: white;}
+            
+            h1	{
+                color: black;
+                font-family: "Lato", sans-serif;
+            }
+            
+            h2, h3  {
+                text-align: left;
+                font-family: "Lato", sans-serif;
+            }
+            
+            p	{
+                color: black;
+                font-family: "Lato", sans-serif;
+                text-align: justify;
+            }
+            
+            a	{color: black;}
+            div	{color: #5996a6;}
+            img	{width: 50%;}
+        
